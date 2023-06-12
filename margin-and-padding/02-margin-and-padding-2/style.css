@@ -10,16 +10,17 @@ body {
 }
 
 .title {
-  background: #e3f4ff;
+  background: lightblue;
   font-size: 16px;
+  padding: 8px;
 }
 
 .content {
-  background: #e3f4ff;
+  background: lightblue;
 }
 
 .button-container {
-  background: #e3f4ff;
+  background: lightblue;
 }
 
 button {
