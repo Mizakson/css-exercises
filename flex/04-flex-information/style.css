@@ -27,3 +27,7 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.info-container, .img-container {
+  display: flex;
+}
