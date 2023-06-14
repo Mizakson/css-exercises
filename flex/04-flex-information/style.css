@@ -30,6 +30,7 @@ img {
 
 .info-container, .img-container {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .c1, .c2, .c3, .c4 {
