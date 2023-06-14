@@ -56,4 +56,5 @@ img {
 img {
   display: flex;
   align-items: center;
+  padding-left: 50px;
 }
