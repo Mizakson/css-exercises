@@ -31,3 +31,8 @@ img {
 .info-container, .img-container {
   display: flex;
 }
+
+.c1, .c2, .c3, .c4 {
+  display: flex;
+  flex-direction: column;
+}
