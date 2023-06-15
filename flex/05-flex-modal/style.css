@@ -88,3 +88,7 @@ h1 {
 .text {
   margin-bottom: 20px;
 }
+
+.button-container {
+  display: flex;
+}
