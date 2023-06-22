@@ -40,7 +40,13 @@ input {
   justify-content: space-between;
 }
 
-.header .left-links, .header .right-links {
+.header .left-links {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.header .right-links {
   display: flex;
   gap: 10px;
   list-style-type: none;
