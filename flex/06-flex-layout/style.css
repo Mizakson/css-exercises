@@ -40,6 +40,9 @@ input {
   justify-content: space-between;
 }
 
+.header .left-links,.right-links {
+  gap: 10px;
+}
 
 /* link styling */
 
