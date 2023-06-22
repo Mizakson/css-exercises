@@ -43,3 +43,10 @@ body {
 .content-container {
   display: flex;
 }
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style-type: none;
+}
