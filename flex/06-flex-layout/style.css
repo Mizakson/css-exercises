@@ -28,14 +28,8 @@ input {
   margin-bottom: 16px;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* header and footer links */
-.header, .footer {
+/* header styling */
+.header {
   display: flex;
   justify-content: space-between;
 }
@@ -51,6 +45,18 @@ input {
   gap: 10px;
   list-style-type: none;
 }
+
+
+/* content styling */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* footer styling */
+
+
 
 /* link styling */
 
