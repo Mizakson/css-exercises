@@ -50,3 +50,8 @@ body {
   gap: 8px;
   list-style-type: none;
 }
+
+.sidebar ul a {
+  color: white;
+  text-decoration: none;
+}
