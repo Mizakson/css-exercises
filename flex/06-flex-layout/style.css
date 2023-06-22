@@ -55,7 +55,10 @@ input {
   align-items: center;
 }
 
-/* footer styling */
+/* footer-specific styling */
+.footer {
+  background-color: #eeeeee;
+}
 
 
 
