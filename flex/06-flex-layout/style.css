@@ -28,12 +28,13 @@ input {
   margin-bottom: 16px;
 }
 
-/* header styling */
-.header {
+/* header + footer styling */
+.header, .footer {
   display: flex;
   justify-content: space-between;
 }
 
+/* header-specific styling */
 .header .left-links {
   display: flex;
   gap: 10px;
