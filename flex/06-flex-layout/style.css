@@ -28,25 +28,6 @@ input {
   margin-bottom: 16px;
 }
 
-.header, .footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.left-links, .right-links {
-  display: flex;
-  list-style-type: none;
-  gap: 15px;
-}
-
-.left-links {
-  margin-right: -15px;
-}
-
-.right-links {
-  margin-left: -15px;
-}
-
 .content {
   display: flex;
   flex-direction: column;
