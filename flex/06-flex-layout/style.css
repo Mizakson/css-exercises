@@ -34,6 +34,12 @@ input {
   align-items: center;
 }
 
+/* header and footer links */
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 /* link styling */
 
