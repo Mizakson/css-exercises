@@ -36,6 +36,10 @@ input {
   list-style-type: none;
 }
 
+a {
+  color: inherit;
+}
+
 a:link { 
   text-decoration: none; 
 }
