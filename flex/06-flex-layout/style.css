@@ -39,6 +39,14 @@ input {
   gap: 15px;
 }
 
+.left-links {
+  margin-right: -15px;
+}
+
+.right-links {
+  margin-left: -15px;
+}
+
 .content {
   display: flex;
   flex-direction: column;
