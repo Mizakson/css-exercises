@@ -4,6 +4,10 @@ body, html {
 }
 
 .container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 200px 600px;
+  grid-template-rows: 120px 120px 600px 120px;
   text-align: center;
   height: 100%;
   padding: 16px;
@@ -21,18 +25,22 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column: 1 / 4;
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-row: 2 / span 2;
 }
 
 .nav {
   background-color: #00DDFF;
+  grid-column: 2 / 4;
 }
 
 .article {
   background-color: #bccbde;
+  grid-column: 2 / 4;
 }
 
 .article p {
@@ -44,4 +52,6 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-row: 4 / 4;
+  grid-column: 1 / 4;
 }
